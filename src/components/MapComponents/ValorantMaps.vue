@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import { url } from "../../fetchURL";
 import { Carousel3d, Slide } from "vue3-carousel-3d";
-import MapSectionBackground from "../assets/mapsectionbackground.png";
+import MapSectionBackground from "../../assets/mapsectionbackground.png";
 
 const response = ref({});
 const mapsUrl = url + "maps";

@@ -48,7 +48,9 @@ import FeaturesCard from "../components/HomeComponents/FeaturesCard.vue";
           <font-awesome-icon icon="fa-solid fa-gun" color="#ffa76e" size="3x" />
           <p class="card-header">Weapons</p>
           <br />
-          <FeatureButtonOrange>Explore weapons...</FeatureButtonOrange>
+          <FeatureButtonOrange @click="$router.push('weapons')"
+            >Explore weapons...</FeatureButtonOrange
+          >
         </FeaturesCard>
       </div>
     </section>
